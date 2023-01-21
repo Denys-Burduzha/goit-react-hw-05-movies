@@ -1,0 +1,26 @@
+.backButton {
+  margin-left: 17%;
+  margin-top: 10px;
+  
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background-color: #daa520;
+}
+.backButton .btnLink {
+  padding: 20px 80px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 20px;
+}

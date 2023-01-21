@@ -1,0 +1,9 @@
+
+
+.noInfo {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
