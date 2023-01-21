@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 
-import Navigation from './Navigation/Navigation';
-import HomePage from '../pages/HomePage/HomePage';
-import MovieDetailsPage from '../pages/MovieDetailsPage/MovieDetailsPage';
-import Reviews from '../pages/Reviews/Reviews';
-import Cast from '../pages/Cast/Cast';
-import MoviesPage from  '../pages/MoviesPage/MoviesPage'
+import Navigation from './Components/Navigation/Navigation';
+import HomePage from './pages/HomePage/HomePage';
+import MovieDetailsPage from './pages/MovieDetailsPage/MovieDetailsPage';
+import Reviews from './pages/Reviews/Reviews';
+import Cast from './pages/Cast/Cast';
+import MoviesPage from  './pages/MoviesPage/MoviesPage'
 
-import NotFound from './NotFound/NotFound';
+import NotFound from './Components/NotFound/NotFound';
 
 
 const App = () => {
