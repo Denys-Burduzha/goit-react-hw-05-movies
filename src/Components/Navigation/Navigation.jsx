@@ -16,7 +16,7 @@ const Navigation = () => {
             : { color: '#808080' }
         }
       >
-        location
+        Home
       </NavLink>
       <NavLink
         to="/movies"
