@@ -35,7 +35,7 @@ const MoviesPage = () => {
           className={styles.inputField}
           type="text"
           value={query}
-          debounceTimeout={500}
+          debounceTimeout={3000}
           onChange={e => setSearchParams({ name: e.target.value })}
           placeholder="Search movies"
           autoComplete="off"

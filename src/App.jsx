@@ -8,8 +8,6 @@ import Cast from './pages/Cast/Cast';
 import MoviesPage from  './pages/MoviesPage/MoviesPage'
 
 
-
-
 const App = () => {
   return (
     <>
