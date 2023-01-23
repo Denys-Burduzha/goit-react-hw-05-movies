@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import {Navigate, Routes, Route } from 'react-router-dom';
 
 import Navigation from './Components/Navigation/Navigation';
 import HomePage from './pages/HomePage/HomePage';
@@ -7,7 +7,7 @@ import Reviews from './pages/Reviews/Reviews';
 import Cast from './pages/Cast/Cast';
 import MoviesPage from  './pages/MoviesPage/MoviesPage'
 
-import NotFound from './Components/NotFound/NotFound';
+
 
 
 const App = () => {
@@ -18,10 +18,10 @@ const App = () => {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/movies" element={<MoviesPage />}></Route>
         <Route path="/movies/:id" element={<MovieDetailsPage />}>
-          <Route path="/movies/:id/cast" element={<Cast />}></Route>
-          <Route path="/movies/:id/reviews" element={<Reviews />}></Route>
+          <Route path="cast" element={<Cast />}></Route>
+          <Route path="reviews" element={<Reviews />}></Route>
         </Route>
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );
